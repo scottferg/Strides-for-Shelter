@@ -1,0 +1,105 @@
+html,
+body {
+	
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	background-image: url( "../images/shirt3.png" );
+	background-color: #84c157;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-family: verdana, arial, helvetica;
+	font-size: 11pt;
+}
+
+#header {
+	width: 100%;
+	background: #ffffff;
+	height: 68px;
+}
+
+html>body #content-wrap { 
+	margin: 0 auto;
+	width: 840px;
+	height:100%;
+}
+
+html>body #content { 
+	padding: 86px;
+	height: 100%;
+	background: #ffffff;
+}
+
+#title {
+	font-size: 47pt;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	top: -90px;
+}
+
+.heading-text {
+	font-style: italic; 
+	font-weight: bold; 
+	padding-bottom: 5px; 
+	padding-top: 10px;
+}
+
+#checks-address {
+	margin-left:280px;
+	padding:20px;
+}
+
+#youtube-embed {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#tab-bar {
+	position: relative;
+	top: 58px;
+}
+
+#tab-bar ul, #tab-bar li{ border:0; margin:0; padding:0; list-style:none; }
+#tab-bar ul {
+	border-bottom:solid 1px #DEDEDE;
+	height:29px;
+	padding-left:20px;
+}
+#tab-bar li{ float:left; margin-right:2px; padding-right: 5px; }
+
+.tab a:link, .tab a:visited {
+	background:url(../images/tab-round.png) right 60px;
+	color:#666666;
+	display:block;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+}
+
+.tab a span {
+	background:url(../images/tab-round.png) left 60px;
+	display:block;
+	height:30px;
+	margin-right:14px;
+	padding-left:14px;
+}
+
+.tab a:hover {
+	background:url(../images/tab-round.png) right 30px;
+	display:block;
+}
+
+.tab a:hover span {
+	background:url(../images/tab-round.png) left 30px;
+	display:block;
+}
+
+.active a:link, .active a:visited, .active a:visited, .active a:hover {
+	background:url(img/tab-round.png) right 0 no-repeat;
+}
+
+.active a span, .active a:hover span {
+	background:url(img/tab-round.png) left 0 no-repeat;
+}

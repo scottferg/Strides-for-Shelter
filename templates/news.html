@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block title %}
+    Strides for Shelter - Home
+{% endblock %}
+{% block body %}
+    {% for entry in entries %}    
+        <div style="background: #eeeeee; border: 1px solid #666666">
+            {{ entry.content }}
+        </div>
+    {% endfor %}
+{% endblock %}
