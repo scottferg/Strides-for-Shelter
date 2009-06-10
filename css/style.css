@@ -1,105 +1,83 @@
-html,
-body {
-	
-	margin: 0 auto;
-	padding: 0;
-	height: 100%;
-	background-image: url( "../images/shirt3.png" );
-	background-color: #84c157;
+#container {
+	text-align: left;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
-	width: 100%;
-	font-family: verdana, arial, helvetica;
-	font-size: 11pt;
+	background-position: bottom;
+	padding: 0px;
+	height: 604px;
 }
-
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
 #header {
-	width: 100%;
-	background: #ffffff;
-	height: 68px;
+	background-color: #FFFFFF;
 }
-
-html>body #content-wrap { 
-	margin: 0 auto;
-	width: 840px;
-	height:100%;
+#linksbar {
+	background-color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	padding-left: 23px;
+	padding-top: 5px;
+	padding-bottom: 3px;
 }
-
-html>body #content { 
-	padding: 86px;
-	height: 100%;
-	background: #ffffff;
+#footer {
+	margin-left: 35px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	bottom: auto;
+	vertical-align: top;
 }
-
 #title {
-	font-size: 47pt;
-	font-weight: bold;
-	position: relative;
-	text-align: center;
-	top: -90px;
-}
-
-.heading-text {
-	font-style: italic; 
-	font-weight: bold; 
-	padding-bottom: 5px; 
+	padding-left: 22px;
+	margin: 0px;
 	padding-top: 10px;
+	height: 47px;
 }
-
-#checks-address {
-	margin-left:280px;
-	padding:20px;
+#links {
 }
-
-#youtube-embed {
-	text-align: center;
-	padding-top: 10px;
+#content {
+	background-image: url(../images/text_box.png);
+	background-repeat: no-repeat;
+	width: 545px;
+	padding-left: 23px;
+	margin-left: 23px;
+	height: 430px;
+	margin-bottom: 2px;
 }
-
-#tab-bar {
-	position: relative;
-	top: 58px;
+.style1 {font-family: Helvetica, Arial, sans-serif}
+.style2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
 }
-
-#tab-bar ul, #tab-bar li{ border:0; margin:0; padding:0; list-style:none; }
-#tab-bar ul {
-	border-bottom:solid 1px #DEDEDE;
-	height:29px;
-	padding-left:20px;
+.style4 {color: #FFFFFF}
+.style5 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8.5px;
+	color: #000000;
 }
-#tab-bar li{ float:left; margin-right:2px; padding-right: 5px; }
-
-.tab a:link, .tab a:visited {
-	background:url(../images/tab-round.png) right 60px;
-	color:#666666;
-	display:block;
-	font-weight:bold;
-	height:30px;
-	line-height:30px;
-	text-decoration:none;
+.style6 {color: #006600}
+a:link {
+	color: #006600;
 }
-
-.tab a span {
-	background:url(../images/tab-round.png) left 60px;
-	display:block;
-	height:30px;
-	margin-right:14px;
-	padding-left:14px;
+a:visited {
+	color: #006600;
 }
-
-.tab a:hover {
-	background:url(../images/tab-round.png) right 30px;
-	display:block;
+a:hover {
+	color: #006600;
 }
-
-.tab a:hover span {
-	background:url(../images/tab-round.png) left 30px;
-	display:block;
-}
-
-.active a:link, .active a:visited, .active a:visited, .active a:hover {
-	background:url(img/tab-round.png) right 0 no-repeat;
-}
-
-.active a span, .active a:hover span {
-	background:url(img/tab-round.png) left 0 no-repeat;
+a:active {
+	color: #006600;
 }

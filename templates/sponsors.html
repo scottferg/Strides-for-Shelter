@@ -1,10 +1,19 @@
 {% extends "index.html" %}
-    {% block sponsors %}class="active"{% endblock %}
-    {% block body %}
-		<div class="heading-text">Thank you to our sponsors!</div>
-		Strides for Shelter offers a great way for businesses and individuals looking to associate their name in a community run 
-		charity while also reaching a large audience this is a fantastic opportunity.
+{% block pagetitle %}
+<div style="padding-top: 7px;">
+    <img src="images/sponsors.png" />
+</div>
+{% endblock %}
+  
+{% block body %}
+    <p class="style1">&nbsp;</p>
+    <p><strong>Thank you to our sponsors!</strong><br />
+      <br />
+    Strides for Shelter offers a great way for businesses and individuals looking to <br />
+    associate their name in a community run charity while also reaching a large <br />
+    audience this is a fantastic opportunity. </p>
 
+    <!--
 		<div style="font-weight: bold;">GOLD SPONSOR-$1000</div>
 		<ul>
 			<li>LOGO AND COMPANY NAME AS PRESENTING SPONSOR ON ALL REFERENCES TO THE EVENT INCLUDING RACE SHIRTS AND FLYERS.</li>
@@ -27,4 +36,5 @@
 			<li>FAMILY NAME ON ALL REFERENCES TO THE EVENT INCLUDING FLYERS.</li>
 			<li>ALSO 4 FROM ABOVE</li>
 		</ul>
-    {% endblock %}
+    -->
+{% endblock %}

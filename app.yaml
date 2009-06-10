@@ -1,6 +1,6 @@
 application: stridesforshelter
 
-version: 1 
+version: 2 
 runtime: python
 api_version: 1
 
@@ -13,6 +13,9 @@ handlers:
   
 - url: /images
   static_dir: images
+
+- url: /content
+  static_dir: content
 
 - url: /.*
   script: requests.py

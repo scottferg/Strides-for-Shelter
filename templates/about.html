@@ -1,25 +1,19 @@
 {% extends "index.html" %}
-    {% block about %}class="active"{% endblock %}
-    {% block body %}
-        <div class="heading-text">Jim's Story</div>
-		On October 23, 2007, my brother, James Bellizzi, passed away after his second lung transplant. His wife Georgene, 
-		spent thirteen weeks by his side, sometimes sleeping in a Philadelphia hotel at $170.00 per night, other nights 
-		in a small family waiting room. Some people slept in their cars. There is a need for a place for families to sleep, 
-		eat, share their anxiety and hope with other families.  "STRIDES FOR SHELTER" is the first annual race in Jim's memory, 
-		all proceeds will go to the transplant house at Penn in his honor.
-		
-		<div class="heading-text">The Transplant House At Penn</div>
-		Is the answer to help ease the economic and emotional burdens that families endure during the transplant process. The 
-		Transplant House will provide comfortable accommodations and convenient services in a supportive, community setting at 
-		nominal cost.<br /><br />
-		
-		For more info: <a href="http://pennhealth.com/transplant/about/house/index.html">Click here</a>
-		
-		<div id="youtube-embed">
-			<object width="425" height="344">
-				<param name="movie" value="http://www.youtube.com/v/Arlerrv6faA&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00"></param>
-				<param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-				<embed src="http://www.youtube.com/v/Arlerrv6faA&hl=en&fs=1&rel=0&color1=0x234900&color2=0x4e9e00" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed>
-			</object>
-		</div>
-    {% endblock %}
+{% block pagetitle %}
+    <img src="images/about.png" />
+{% endblock %}
+  
+{% block body %}
+    <p class="style1">&nbsp;</p>
+    <p><strong>Jim's Story</strong><br />
+      On October 23, 2007, my brother, James Bellizzi, passed away after his second lung transplant.<br /> 
+      His wife Georgene, spent thirteen weeks by his side, sometimes sleeping in a Philadelphia hotel<br /> 
+      at $170.00 per night, other nights in a small family waiting room. Some people slept in their cars. There is a need for a place for families to sleep, eat, share their anxiety and hope with other<br /> 
+      families. STRIDES FOR SHELTER is the first annual race in Jim's memory, all proceeds will go <br />
+      to the transplant house at Penn in his honor.<br />
+      </p>
+    <p><strong>The Transplant House At Penn</strong> is the answer to help ease the economic and emotional burdens <br />
+    that families endure during the transplant process. The Transplant House will provide comfortable accommodations and convenient services in a supportive, community setting at nominal cost.</p>
+    <p>For more info: <a href="http://pennhealth.com/transplant/about/house/index.html">Click here</a></p>
+    <p>&nbsp;</p>
+{% endblock %} 

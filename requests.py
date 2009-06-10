@@ -65,11 +65,20 @@ class Sponsors( webapp.RequestHandler ):
         path = os.path.join( os.path.dirname( __file__ ), 'templates/sponsors.html' )
         self.response.out.write( template.render( path, template_values ) )
 
+class Contact( webapp.RequestHandler ):
+    def get( self ):
+
+        template_values = { }
+
+        path = os.path.join( os.path.dirname( __file__ ), 'templates/contact.html' )
+        self.response.out.write( template.render( path, template_values ) )
+
 application = webapp.WSGIApplication( [( '/', MainPage ),
                                        ( '/news', News ),
                                        ( '/signup', Signup ),
                                        ( '/about', About ),
-                                       ( '/sponsors', Sponsors )],
+                                       ( '/sponsors', Sponsors ),
+                                       ( '/contact', Contact )],
                                        debug = True )
 
 def main( ):
